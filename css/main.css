@@ -26,38 +26,125 @@ body {
   background-image: linear-gradient(to bottom, #edc596, #fbd7a7);
   text-align: center;
 }
+
+.header{
+  padding: 2%;
+  opacity: 1;
+  transition: opacity 250ms ease;
+}
+.js-header-animate {
+  opacity: 0;
+}
+
+
+
+
+
 .footsandbar {
   min-height: 6rem;
   padding: 2%;
   background-image: linear-gradient(to top, #edc596, #fbd7a7);
   text-align: center;
 }
+
+
+
+
+
+
 .toprow {
   text-align: center;
-  margin-top: 3%
+  margin-top: 3%;
 }
+
+
+
+.midsect {
+  opacity: 1;
+  transition: opacity 250ms ease;
+}
+.js-midsect-animate {
+  opacity: 0;
+}
+
 .midrow {
   text-align: center;
   margin-bottom: 4%;
   margin-top: 3rem;
 }
+
+
+
 .midinfo{
   margin-bottom: 1rem;
 }
-.header{
-  padding: 2%;
+
+
+.foot {
+  opacity: 0;
+  transition: opacity 250ms ease;
 }
+.js-foot-animate {
+  opacity: 1;
+}
+
+
+
+
 .topspots {
+  opacity: 1;
+  transition: opacity 250ms ease;
 }
+.js-topspots-animate {
+  opacity: 0;
+}
+
+
+
+
 .bob {
   margin-top: 5%;
+  opacity: 1;
+  transition: opacity 250ms ease;
 }
+.js-bob-animate {
+  opacity: 0;
+}
+
 .leaf {
   margin-top: 8%;
   margin-bottom: 5%;
+  opacity: 1;
+  transition: opacity 250ms ease;
 }
+.js-leaf-animate {
+  opacity: 0;
+}
+
 .walleye {
+  opacity: 1;
+  transition: opacity 250ms ease;
 }
+.js-walleye-animate {
+  opacity: 0;
+}
+
+.graph {
+  opacity: 1;
+  transition: opacity 250ms ease;
+}
+.js-graph-animate {
+  opacity: 0;
+}
+.lakes {
+  opacity: 1;
+  transition: opacity 250ms ease;
+}
+.js-lakes-animate {
+  opacity: 0;
+}
+
+
 .twomil {
   margin-right: 5%;
   margin-bottom: 5%;
