@@ -1,0 +1,72 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  background-color: #aac5e7;
+  font-family: sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.topsandbar {
+  background-image: linear-gradient(to bottom, #edc596, #fbd7a7);
+  text-align: center;
+}
+.footsandbar {
+  min-height: 6rem;
+  padding: 2%;
+  background-image: linear-gradient(to top, #edc596, #fbd7a7);
+  text-align: center;
+}
+.toprow {
+  text-align: center;
+  margin-top: 3%
+}
+.midrow {
+  text-align: center;
+  margin-bottom: 4%;
+  margin-top: 3rem;
+}
+.midinfo{
+  margin-bottom: 1rem;
+}
+.header{
+  padding: 2%;
+}
+.topspots {
+}
+.bob {
+  margin-top: 5%;
+}
+.leaf {
+  margin-top: 8%;
+  margin-bottom: 5%;
+}
+.walleye {
+}
+.twomil {
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+
+.mvf {
+  margin-bottom: 5%;
+}
+
+.oneoften {
+  margin-bottom: 5%;
+}
