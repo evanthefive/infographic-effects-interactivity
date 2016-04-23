@@ -57,16 +57,6 @@ $walleye.waypoint(function (direction) {
 }, { offset: '-3%' });
 
 
-
-
-
-
-
-
-
-
-
-
 var $graph = $('.graph');
 
 $graph.waypoint(function (direction) {
@@ -98,3 +88,4 @@ $foot.waypoint(function (direction) {
 		$foot.removeClass('js-foot-animate');
 	}
 }, { offset: '90%' });
+

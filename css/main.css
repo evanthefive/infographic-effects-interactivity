@@ -48,7 +48,7 @@ body {
 .midinfo{
   margin-bottom: 1rem;
 }
-/*MARGINS SECTION*/
+/*MARGINS SECTION END*/
 
 
 
@@ -114,7 +114,7 @@ body {
 .js-foot-animate {
   opacity: 1;
 }
-/*WAY POINTS SECTION*/
+/*WAY POINTS SECTION END*/
 
 
 
@@ -235,6 +235,27 @@ body {
     fill: #fff;
   }
 }
+.sectionwiggle{
+  animation: sectionwiggle-jiggle 3s infinite ease-in-out;
+  transition: color 1000ms linear;
+}
+@keyframes sectionwiggle-jiggle {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(0.2deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(0.2deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
 
 .bobberin{
   animation: bobberin-jiggle 1s infinite ease-in-out;
@@ -287,8 +308,65 @@ body {
 .fishleaf:hover{
   fill: #d8eaf8;
 }
+.walleyewiggle{
+  animation: walleyewiggle-jiggle 4s infinite ease-in-out;
+  transition: color 1000ms linear;
+}
+@keyframes walleyewiggle-jiggle {
+  0% {
+    transform: scale(1.005, 1.005);
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: scale(1, 1);
+    transform: rotate(0.5deg);
+  }
+  50% {
+    transform: scale(1.005, 1.005);
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: scale(1, 1);
+    transform: rotate(0.5deg);
+  }
+  100% {
+    transform: scale(1.005, 1.005);
+    transform: rotate(0deg);
+  }
+}
 /*FIRST SECTION END*/
 
+
+
+/*LAST SECTION*/
+.planewiggle{
+  animation: planewiggle-jiggle 2.5s infinite ease-in-out;
+  transition: color 1000ms linear;
+}
+@keyframes planewiggle-jiggle {
+  0% {
+    transform: scale(1.005, 1.005);
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: scale(1, 1);
+    transform: rotate(0.5deg);
+  }
+  50% {
+    transform: scale(1.005, 1.005);
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: scale(1, 1);
+    transform: rotate(0.5deg);
+  }
+  100% {
+    transform: scale(1.005, 1.005);
+    transform: rotate(0deg);
+  }
+}
+
+/*LAST SECTION END*/
 
 
 
@@ -299,4 +377,4 @@ body {
   background-image: linear-gradient(to top, #edc596, #fbd7a7);
   text-align: center;
 }
-/*FOOTER SECTION*/
+/*FOOTER SECTION END*/
