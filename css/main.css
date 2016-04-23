@@ -113,22 +113,27 @@ body {
   transition: color 1000ms linear;
 }
 @keyframes titlefishing-jiggle {
+
   0% {
     transform: scale(1.005, 1.005);
     transform: rotate(0deg);
   }
+
   25% {
     transform: scale(1, 1);
     transform: rotate(0.5deg);
   }
+
   50% {
     transform: scale(1.005, 1.005);
     transform: rotate(0deg);
   }
+
   75% {
     transform: scale(1, 1);
     transform: rotate(0.5deg);
   }
+
   100% {
     transform: scale(1.005, 1.005);
     transform: rotate(0deg);
