@@ -13,7 +13,7 @@ $header.waypoint(function (direction) {
   } else {
     $header.removeClass('js-header-animate');
   }
-}, { offset: '-3%' });
+}, {offset: '-3%'});
 
 $topspots.waypoint(function (direction) {
   if (direction == 'down') {
