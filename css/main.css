@@ -21,6 +21,42 @@ html {
 body {
   margin: 0;
 }
+
+h1 {
+  font-size: 120%;
+  color: #a79072;
+  padding-bottom: 2rem;
+  animation: titlecanada-jiggle 3s infinite ease-in-out;
+}
+
+@keyframes h1-jiggle {
+
+  0% {
+    transform: scale(1.005, 1.005);
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: scale(1, 1);
+    transform: rotate(0.5deg);
+  }
+
+  50% {
+    transform: scale(1.005, 1.005);
+    transform: rotate(0deg);
+  }
+
+  75% {
+    transform: scale(1, 1);
+    transform: rotate(0.5deg);
+  }
+
+  100% {
+    transform: scale(1.005, 1.005);
+    transform: rotate(0deg);
+  }
+}
+
 /* margins section */
 
 .twomil {
@@ -295,7 +331,7 @@ body {
 }
 
 .bobberin {
-  animation: bobberin-jiggle 1s infinite ease-in-out;
+  animation: bobberin-jiggle 2s infinite ease-in-out;
 }
 @keyframes bobberin-jiggle {
 
