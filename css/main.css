@@ -52,66 +52,83 @@ body {
 }
 /* MARGINS SECTION END */
 /* WAY POINTS SECTION */
+
 .header {
   padding: 2%;
   opacity: 1;
   transition: opacity 500ms ease;
 }
+
 .js-header-animate {
   opacity: 0;
 }
+
 .topspots {
   opacity: 1;
   transition: opacity 500ms ease;
 }
+
 .js-topspots-animate {
   opacity: 0;
 }
+
 .bob {
   margin-top: 5%;
   opacity: 1;
   transition: opacity 500ms ease;
 }
+
 .js-bob-animate {
   opacity: 0;
 }
+
 .leaf {
   margin-top: 8%;
   margin-bottom: 5%;
   opacity: 1;
   transition: opacity 500ms ease;
 }
+
 .js-leaf-animate {
   opacity: 0;
 }
+
 .walleye {
   opacity: 1;
   transition: opacity 500ms ease;
 }
+
 .js-walleye-animate {
   opacity: 0;
 }
+
 .graph {
   opacity: 1;
   transition: opacity 500ms ease;
 }
+
 .js-graph-animate {
   opacity: 0;
 }
+
 .lakes {
   opacity: 1;
   transition: opacity 500ms ease;
 }
+
 .js-lakes-animate {
   opacity: 0;
 }
+
 .foot {
   opacity: 0;
   transition: opacity 500ms ease;
 }
+
 .js-foot-animate {
   opacity: 1;
 }
+
 /* WAY POINTS SECTION END */
 /* TITLE SECTION */
 .titlefishing {
