@@ -1,4 +1,11 @@
 var $header = $('.header');
+var $topspots = $('.topspots');
+var $bob = $('.bob');
+var $leaf = $('.leaf');
+var $walleye = $('.walleye');
+var $graph = $('.graph');
+var $lakes = $('.lakes');
+var $foot = $('.foot');
 
 $header.waypoint(function (direction) {
 	if (direction == 'down') {
@@ -8,11 +15,6 @@ $header.waypoint(function (direction) {
 	}
 }, { offset: '-3%' });
 
-
-
-
-var $topspots = $('.topspots');
-
 $topspots.waypoint(function (direction) {
 	if (direction == 'down') {
 		$topspots.addClass('js-topspots-animate');
@@ -20,9 +22,6 @@ $topspots.waypoint(function (direction) {
 		$topspots.removeClass('js-topspots-animate');
 	}
 }, { offset: '-30%' });
-
-
-var $bob = $('.bob');
 
 $bob.waypoint(function (direction) {
 	if (direction == 'down') {
@@ -32,10 +31,6 @@ $bob.waypoint(function (direction) {
 	}
 }, { offset: '-20%' });
 
-
-
-var $leaf = $('.leaf');
-
 $leaf.waypoint(function (direction) {
 	if (direction == 'down') {
 		$leaf.addClass('js-leaf-animate');
@@ -43,10 +38,6 @@ $leaf.waypoint(function (direction) {
 		$leaf.removeClass('js-leaf-animate');
 	}
 }, { offset: '-15%' });
-
-
-
-var $walleye = $('.walleye');
 
 $walleye.waypoint(function (direction) {
 	if (direction == 'down') {
@@ -56,9 +47,6 @@ $walleye.waypoint(function (direction) {
 	}
 }, { offset: '-3%' });
 
-
-var $graph = $('.graph');
-
 $graph.waypoint(function (direction) {
 	if (direction == 'down') {
 		$graph.addClass('js-graph-animate');
@@ -67,8 +55,6 @@ $graph.waypoint(function (direction) {
 	}
 }, { offset: '-25%' });
 
-var $lakes = $('.lakes');
-
 $lakes.waypoint(function (direction) {
 	if (direction == 'down') {
 		$lakes.addClass('js-lakes-animate');
@@ -76,10 +62,6 @@ $lakes.waypoint(function (direction) {
 		$lakes.removeClass('js-lakes-animate');
 	}
 }, { offset: '-25%' });
-
-
-
-var $foot = $('.foot');
 
 $foot.waypoint(function (direction) {
 	if (direction == 'down') {

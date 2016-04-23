@@ -21,11 +21,7 @@ html {
 body {
   margin: 0;
 }
-
-
-
-
-/*MARGINS SECTION*/
+/* MARGINS SECTION */
 .twomil {
   margin-right: 5%;
   margin-bottom: 5%;
@@ -45,16 +41,12 @@ body {
   margin-bottom: 4%;
   margin-top: 3rem;
 }
-.midinfo{
+.midinfo {
   margin-bottom: 1rem;
 }
-/*MARGINS SECTION END*/
-
-
-
-
-/*WAY POINTS SECTION*/
-.header{
+/* MARGINS SECTION END */
+/* WAY POINTS SECTION */
+.header {
   padding: 2%;
   opacity: 1;
   transition: opacity 500ms ease;
@@ -114,13 +106,9 @@ body {
 .js-foot-animate {
   opacity: 1;
 }
-/*WAY POINTS SECTION END*/
-
-
-
-
-/*TITLE SECTION*/
-.titlefishing{
+/* WAY POINTS SECTION END */
+/* TITLE SECTION */
+.titlefishing {
   animation: titlefishing-jiggle 2.5s infinite ease-in-out;
   transition: color 1000ms linear;
 }
@@ -146,7 +134,7 @@ body {
     transform: rotate(0deg);
   }
 }
-.titlein{
+.titlein {
   animation: titlein-jiggle 4s infinite ease-in-out;
   transition: color 1000ms linear;
 }
@@ -172,7 +160,7 @@ body {
     transform: rotate(0.3deg);
   }
 }
-.titlecanada{
+.titlecanada {
   animation: titlecanada-jiggle 3s infinite ease-in-out;
   transition: color 1000ms linear;
 }
@@ -198,18 +186,13 @@ body {
     transform: rotate(0deg);
   }
 }
-
-
 .topsandbar {
   background-image: linear-gradient(to bottom, #edc596, #fbd7a7);
   text-align: center;
 }
-/*TITLE SECTION END*/
-
-
-
-/*FIRST SECTION*/
-.fishes{
+/* TITLE SECTION END */
+/* FIRST SECTION */
+.fishes {
   animation: fishes-jiggle 3s infinite ease-in-out;
   transition: color 1000ms linear;
 }
@@ -235,7 +218,7 @@ body {
     fill: #fff;
   }
 }
-.sectionwiggle{
+.sectionwiggle {
   animation: sectionwiggle-jiggle 3s infinite ease-in-out;
   transition: color 1000ms linear;
 }
@@ -256,8 +239,7 @@ body {
     transform: rotate(0deg);
   }
 }
-
-.bobberin{
+.bobberin {
   animation: bobberin-jiggle 1s infinite ease-in-out;
 }
 @keyframes bobberin-jiggle {
@@ -271,8 +253,7 @@ body {
     transform: scale(1.01, 1.01);
   }
 }
-
-.bobberout{
+.bobberout {
   animation: bobberout-jiggle 1s infinite ease-in-out;
 }
 @keyframes bobberout-jiggle {
@@ -286,8 +267,7 @@ body {
     transform: scale(1, 1);
   }
 }
-
-.fishinleaf{
+.fishinleaf {
   animation: fishinleaf-jiggle 1s infinite ease-in-out;
   fill: #2d4171;
 }
@@ -302,13 +282,13 @@ body {
     transform: scale(1, 1);
   }
 }
-.fishleaf{
+.fishleaf {
   transition: color 1000ms linear;
 }
-.fishleaf:hover{
+.fishleaf:hover {
   fill: #d8eaf8;
 }
-.walleyewiggle{
+.walleyewiggle {
   animation: walleyewiggle-jiggle 4s infinite ease-in-out;
   transition: color 1000ms linear;
 }
@@ -334,12 +314,9 @@ body {
     transform: rotate(0deg);
   }
 }
-/*FIRST SECTION END*/
-
-
-
-/*LAST SECTION*/
-.planewiggle{
+/* FIRST SECTION END */
+/* LAST SECTION */
+.planewiggle {
   animation: planewiggle-jiggle 2.5s infinite ease-in-out;
   transition: color 1000ms linear;
 }
@@ -365,16 +342,12 @@ body {
     transform: rotate(0deg);
   }
 }
-
-/*LAST SECTION END*/
-
-
-
-/*FOOTER SECTION*/
+/* LAST SECTION END */
+/* FOOTER SECTION */
 .footsandbar {
   min-height: 6rem;
   padding: 2%;
   background-image: linear-gradient(to top, #edc596, #fbd7a7);
   text-align: center;
 }
-/*FOOTER SECTION END*/
+/* FOOTER SECTION END */
