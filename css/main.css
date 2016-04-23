@@ -25,110 +25,7 @@ body {
 
 
 
-
-
-
-.footsandbar {
-  min-height: 6rem;
-  padding: 2%;
-  background-image: linear-gradient(to top, #edc596, #fbd7a7);
-  text-align: center;
-}
-
-
-
-
-
-
-.toprow {
-  text-align: center;
-  margin-top: 3%;
-}
-
-
-
-.midsect {
-  opacity: 1;
-  transition: opacity 250ms ease;
-}
-.js-midsect-animate {
-  opacity: 0;
-}
-
-.midrow {
-  text-align: center;
-  margin-bottom: 4%;
-  margin-top: 3rem;
-}
-
-
-
-.midinfo{
-  margin-bottom: 1rem;
-}
-
-
-.foot {
-  opacity: 0;
-  transition: opacity 250ms ease;
-}
-.js-foot-animate {
-  opacity: 1;
-}
-
-
-
-
-.topspots {
-  opacity: 1;
-  transition: opacity 250ms ease;
-}
-.js-topspots-animate {
-  opacity: 0;
-}
-.bob {
-  margin-top: 5%;
-  opacity: 1;
-  transition: opacity 250ms ease;
-}
-.js-bob-animate {
-  opacity: 0;
-}
-.leaf {
-  margin-top: 8%;
-  margin-bottom: 5%;
-  opacity: 1;
-  transition: opacity 250ms ease;
-}
-.js-leaf-animate {
-  opacity: 0;
-}
-.walleye {
-  opacity: 1;
-  transition: opacity 250ms ease;
-}
-.js-walleye-animate {
-  opacity: 0;
-}
-.graph {
-  opacity: 1;
-  transition: opacity 250ms ease;
-}
-.js-graph-animate {
-  opacity: 0;
-}
-.lakes {
-  opacity: 1;
-  transition: opacity 250ms ease;
-}
-.js-lakes-animate {
-  opacity: 0;
-}
-
-
-
-
-
+/*MARGINS SECTION*/
 .twomil {
   margin-right: 5%;
   margin-bottom: 5%;
@@ -139,92 +36,85 @@ body {
 .oneoften {
   margin-bottom: 5%;
 }
-
-
-
-
-.fishes{
-  animation: fishes-jiggle 1s infinite ease-in-out;
-  transition: color 1000ms linear;
+.toprow {
+  text-align: center;
+  margin-top: 3%;
 }
-.fishes:hover{
-  fill: #2d4171;
+.midrow {
+  text-align: center;
+  margin-bottom: 4%;
+  margin-top: 3rem;
 }
-@keyframes fishes-jiggle {
-  0% {
-    transform: scale(1.005, 1.005);
-  }
-  25% {
-    transform: scale(1, 1);
-  }
-  50% {
-    transform: scale(1.005, 1.005);
-  }
-  75% {
-    transform: scale(1, 1);
-  }
-  100% {
-    transform: scale(1.005, 1.005);
-  }
+.midinfo{
+  margin-bottom: 1rem;
 }
+/*MARGINS SECTION*/
 
 
 
 
-
-.bobberin{
-  animation: bobberin-jiggle 1s infinite ease-in-out;
+/*WAY POINTS SECTION*/
+.header{
+  padding: 2%;
+  opacity: 1;
+  transition: opacity 500ms ease;
 }
-@keyframes bobberin-jiggle {
-  0% {
-    transform: scale(1.01, 1.01);
-  }
-  50% {
-    transform: scale(1, 1);
-  }
-  100% {
-    transform: scale(1.01, 1.01);
-  }
+.js-header-animate {
+  opacity: 0;
 }
-
-
-.bobberout{
-  animation: bobberout-jiggle 1s infinite ease-in-out;
+.topspots {
+  opacity: 1;
+  transition: opacity 500ms ease;
 }
-@keyframes bobberout-jiggle {
-  0% {
-    transform: scale(1, 1);
-  }
-  50% {
-    transform: scale(1.01, 1.01);
-  }
-  100% {
-    transform: scale(1, 1);
-  }
+.js-topspots-animate {
+  opacity: 0;
 }
-
-
-.fishinleaf{
-  animation: fishinleaf-jiggle 1s infinite ease-in-out;
-  fill: #2d4171;
+.bob {
+  margin-top: 5%;
+  opacity: 1;
+  transition: opacity 500ms ease;
 }
-@keyframes fishinleaf-jiggle {
-  0% {
-    transform: scale(1, 1);
-  }
-  50% {
-    transform: scale(1.005, 1.005);
-  }
-  100% {
-    transform: scale(1, 1);
-  }
+.js-bob-animate {
+  opacity: 0;
 }
-.fishleaf{
-  transition: color 1000ms linear;
+.leaf {
+  margin-top: 8%;
+  margin-bottom: 5%;
+  opacity: 1;
+  transition: opacity 500ms ease;
 }
-.fishleaf:hover{
-  fill: #d8eaf8;
+.js-leaf-animate {
+  opacity: 0;
 }
+.walleye {
+  opacity: 1;
+  transition: opacity 500ms ease;
+}
+.js-walleye-animate {
+  opacity: 0;
+}
+.graph {
+  opacity: 1;
+  transition: opacity 500ms ease;
+}
+.js-graph-animate {
+  opacity: 0;
+}
+.lakes {
+  opacity: 1;
+  transition: opacity 500ms ease;
+}
+.js-lakes-animate {
+  opacity: 0;
+}
+.foot {
+  opacity: 0;
+  transition: opacity 500ms ease;
+}
+.js-foot-animate {
+  opacity: 1;
+}
+/*WAY POINTS SECTION*/
 
 
 
@@ -309,19 +199,102 @@ body {
   }
 }
 
-.header{
-  padding: 2%;
-  opacity: 1;
-  transition: opacity 250ms ease;
-}
-.js-header-animate {
-  opacity: 0;
-}
 
 .topsandbar {
   background-image: linear-gradient(to bottom, #edc596, #fbd7a7);
   text-align: center;
 }
-
 /*TITLE SECTION END*/
 
+
+
+/*FIRST SECTION*/
+.fishes{
+  animation: fishes-jiggle 1s infinite ease-in-out;
+  transition: color 1000ms linear;
+}
+.fishes:hover{
+  fill: #2d4171;
+}
+@keyframes fishes-jiggle {
+  0% {
+    transform: scale(1.005, 1.005);
+  }
+  25% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.005, 1.005);
+  }
+  75% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(1.005, 1.005);
+  }
+}
+
+.bobberin{
+  animation: bobberin-jiggle 1s infinite ease-in-out;
+}
+@keyframes bobberin-jiggle {
+  0% {
+    transform: scale(1.01, 1.01);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(1.01, 1.01);
+  }
+}
+
+.bobberout{
+  animation: bobberout-jiggle 1s infinite ease-in-out;
+}
+@keyframes bobberout-jiggle {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.01, 1.01);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+.fishinleaf{
+  animation: fishinleaf-jiggle 1s infinite ease-in-out;
+  fill: #2d4171;
+}
+@keyframes fishinleaf-jiggle {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.005, 1.005);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+.fishleaf{
+  transition: color 1000ms linear;
+}
+.fishleaf:hover{
+  fill: #d8eaf8;
+}
+/*FIRST SECTION END*/
+
+
+
+
+/*FOOTER SECTION*/
+.footsandbar {
+  min-height: 6rem;
+  padding: 2%;
+  background-image: linear-gradient(to top, #edc596, #fbd7a7);
+  text-align: center;
+}
+/*FOOTER SECTION*/
