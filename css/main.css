@@ -144,22 +144,27 @@ body {
   transition: color 1000ms linear;
 }
 @keyframes titlein-jiggle {
+
   0% {
     transform: scale(1, 1);
     transform: rotate(0.3deg);
   }
+
   25% {
     transform: scale(1.002, 1.002);
     transform: rotate(0deg);
   }
+
   50% {
     transform: scale(1, 1);
     transform: rotate(0.3deg);
   }
+
   75% {
     transform: scale(1.002, 1.002);
     transform: rotate(0deg);
   }
+
   100% {
     transform: scale(1, 1);
     transform: rotate(0.3deg);
@@ -170,22 +175,27 @@ body {
   transition: color 1000ms linear;
 }
 @keyframes titlecanada-jiggle {
+
   0% {
     transform: scale(1.005, 1.005);
     transform: rotate(0deg);
   }
+
   25% {
     transform: scale(1, 1);
     transform: rotate(0.5deg);
   }
+
   50% {
     transform: scale(1.005, 1.005);
     transform: rotate(0deg);
   }
+
   75% {
     transform: scale(1, 1);
     transform: rotate(0.5deg);
   }
+
   100% {
     transform: scale(1.005, 1.005);
     transform: rotate(0deg);
@@ -202,22 +212,27 @@ body {
   transition: color 1000ms linear;
 }
 @keyframes fishes-jiggle {
+
   0% {
     transform: scale(1.005, 1.005);
     fill: #fff;
   }
+
   25% {
     transform: scale(1, 1);
     fill: #d8eaf8;
   }
+
   50% {
     transform: scale(1.005, 1.005);
     fill: #d8eaf8;
   }
+
   75% {
     transform: scale(1, 1);
     fill: #d8eaf8;
   }
+
   100% {
     transform: scale(1.005, 1.005);
     fill: #fff;
@@ -228,18 +243,23 @@ body {
   transition: color 1000ms linear;
 }
 @keyframes sectionwiggle-jiggle {
+
   0% {
     transform: rotate(0deg);
   }
+
   25% {
     transform: rotate(0.2deg);
   }
+
   50% {
     transform: rotate(0deg);
   }
+
   75% {
     transform: rotate(0.2deg);
   }
+
   100% {
     transform: rotate(0deg);
   }
@@ -248,12 +268,15 @@ body {
   animation: bobberin-jiggle 1s infinite ease-in-out;
 }
 @keyframes bobberin-jiggle {
+
   0% {
     transform: scale(1.01, 1.01);
   }
+
   50% {
     transform: scale(1, 1);
   }
+
   100% {
     transform: scale(1.01, 1.01);
   }
@@ -262,12 +285,15 @@ body {
   animation: bobberout-jiggle 1s infinite ease-in-out;
 }
 @keyframes bobberout-jiggle {
+
   0% {
     transform: scale(1, 1);
   }
+
   50% {
     transform: scale(1.01, 1.01);
   }
+
   100% {
     transform: scale(1, 1);
   }
@@ -277,12 +303,15 @@ body {
   fill: #2d4171;
 }
 @keyframes fishinleaf-jiggle {
+
   0% {
     transform: scale(1, 1);
   }
+
   50% {
     transform: scale(1.005, 1.005);
   }
+
   100% {
     transform: scale(1, 1);
   }
@@ -298,22 +327,27 @@ body {
   transition: color 1000ms linear;
 }
 @keyframes walleyewiggle-jiggle {
+
   0% {
     transform: scale(1.005, 1.005);
     transform: rotate(0deg);
   }
+
   25% {
     transform: scale(1, 1);
     transform: rotate(0.5deg);
   }
+
   50% {
     transform: scale(1.005, 1.005);
     transform: rotate(0deg);
   }
+
   75% {
     transform: scale(1, 1);
     transform: rotate(0.5deg);
   }
+
   100% {
     transform: scale(1.005, 1.005);
     transform: rotate(0deg);
@@ -326,22 +360,27 @@ body {
   transition: color 1000ms linear;
 }
 @keyframes planewiggle-jiggle {
+
   0% {
     transform: scale(1.005, 1.005);
     transform: rotate(0deg);
   }
+
   25% {
     transform: scale(1, 1);
     transform: rotate(0.5deg);
   }
+
   50% {
     transform: scale(1.005, 1.005);
     transform: rotate(0deg);
   }
+
   75% {
     transform: scale(1, 1);
     transform: rotate(0.5deg);
   }
+
   100% {
     transform: scale(1.005, 1.005);
     transform: rotate(0deg);
