@@ -21,7 +21,7 @@ $topspots.waypoint(function (direction) {
   } else {
     $topspots.removeClass('js-topspots-animate');
   }
-}, { offset: '-30%' });
+}, {offset: '-30%'});
 
 $bob.waypoint(function (direction) {
   if (direction == 'down') {
@@ -29,7 +29,7 @@ $bob.waypoint(function (direction) {
   } else {
     $bob.removeClass('js-bob-animate');
   }
-}, { offset: '-20%' });
+}, {offset: '-20%'});
 
 $leaf.waypoint(function (direction) {
   if (direction == 'down') {
@@ -37,7 +37,7 @@ $leaf.waypoint(function (direction) {
   } else {
     $leaf.removeClass('js-leaf-animate');
   }
-}, { offset: '-15%' });
+}, {offset: '-15%'});
 
 $walleye.waypoint(function (direction) {
   if (direction == 'down') {
@@ -45,7 +45,7 @@ $walleye.waypoint(function (direction) {
   } else {
     $walleye.removeClass('js-walleye-animate');
   }
-}, { offset: '-3%' });
+}, {offset: '-3%'});
 
 $graph.waypoint(function (direction) {
   if (direction == 'down') {
@@ -53,7 +53,7 @@ $graph.waypoint(function (direction) {
   } else {
     $graph.removeClass('js-graph-animate');
   }
-}, { offset: '-25%' });
+}, {offset: '-25%'});
 
 $lakes.waypoint(function (direction) {
   if (direction == 'down') {
@@ -61,7 +61,7 @@ $lakes.waypoint(function (direction) {
   } else {
     $lakes.removeClass('js-lakes-animate');
   }
-}, { offset: '-25%' });
+}, {offset: '-25%'});
 
 $foot.waypoint(function (direction) {
   if (direction == 'down') {
@@ -69,5 +69,5 @@ $foot.waypoint(function (direction) {
   } else {
     $foot.removeClass('js-foot-animate');
   }
-}, { offset: '90%' });
+}, {offset: '90%'});
 
