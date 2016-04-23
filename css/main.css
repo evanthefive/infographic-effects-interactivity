@@ -210,27 +210,29 @@ body {
 
 /*FIRST SECTION*/
 .fishes{
-  animation: fishes-jiggle 1s infinite ease-in-out;
+  animation: fishes-jiggle 3s infinite ease-in-out;
   transition: color 1000ms linear;
-}
-.fishes:hover{
-  fill: #2d4171;
 }
 @keyframes fishes-jiggle {
   0% {
     transform: scale(1.005, 1.005);
+    fill: #fff;
   }
   25% {
     transform: scale(1, 1);
+    fill: #d8eaf8;
   }
   50% {
     transform: scale(1.005, 1.005);
+    fill: #d8eaf8;
   }
   75% {
     transform: scale(1, 1);
+    fill: #d8eaf8;
   }
   100% {
     transform: scale(1.005, 1.005);
+    fill: #fff;
   }
 }
 
