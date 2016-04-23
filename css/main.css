@@ -442,7 +442,7 @@ body {
 
   .st1 {
     fill:#aac5e7;
-    stroke:#000000;
+    stroke:#000;
     stroke-width:1.1128;
     stroke-miterlimit:10;
   }
@@ -494,13 +494,13 @@ body {
   }
 
   .st11 {
-    fill:#ffffff;
+    fill:#fff;
     stroke:#2d4171;
     stroke-miterlimit:10;
   }
 
   .st12 {
-    fill:#ffffff;
+    fill:#fff;
     stroke:#2d4171;
     stroke-width:2.8741;
     stroke-miterlimit:10;
@@ -529,7 +529,7 @@ body {
   }
 
   .st17 {
-    fill:#ffffff;
+    fill:#fff;
   }
 
   .st18 {
@@ -675,7 +675,7 @@ body {
   }
 
   .st38 {
-    fill:#ffffff;
+    fill:#fff;
     stroke:#2d4171;
     stroke-width:3;
     stroke-miterlimit:10;
@@ -683,7 +683,7 @@ body {
 
   .st39 {
     fill:none;
-    stroke:#000000;
+    stroke:#000;
     stroke-width:0.3;
   }
 
