@@ -22,19 +22,7 @@ body {
   margin: 0;
 }
 
-.topsandbar {
-  background-image: linear-gradient(to bottom, #edc596, #fbd7a7);
-  text-align: center;
-}
 
-.header{
-  padding: 2%;
-  opacity: 1;
-  transition: opacity 250ms ease;
-}
-.js-header-animate {
-  opacity: 0;
-}
 
 
 
@@ -241,68 +229,99 @@ body {
 
 
 
-
+/*TITLE SECTION*/
 .titlefishing{
-  animation: titlefishing-jiggle 2s infinite ease-in-out;
+  animation: titlefishing-jiggle 2.5s infinite ease-in-out;
   transition: color 1000ms linear;
 }
 @keyframes titlefishing-jiggle {
   0% {
     transform: scale(1.005, 1.005);
+    transform: rotate(0deg);
   }
   25% {
     transform: scale(1, 1);
+    transform: rotate(0.5deg);
   }
   50% {
     transform: scale(1.005, 1.005);
+    transform: rotate(0deg);
   }
   75% {
     transform: scale(1, 1);
+    transform: rotate(0.5deg);
   }
   100% {
     transform: scale(1.005, 1.005);
+    transform: rotate(0deg);
   }
 }
 .titlein{
-  animation: titlein-jiggle 2s infinite ease-in-out;
+  animation: titlein-jiggle 4s infinite ease-in-out;
   transition: color 1000ms linear;
 }
 @keyframes titlein-jiggle {
   0% {
     transform: scale(1, 1);
+    transform: rotate(0.3deg);
   }
   25% {
-    transform: scale(1.005, 1.005);
+    transform: scale(1.002, 1.002);
+    transform: rotate(0deg);
   }
   50% {
     transform: scale(1, 1);
+    transform: rotate(0.3deg);
   }
   75% {
-    transform: scale(1.005, 1.005);
+    transform: scale(1.002, 1.002);
+    transform: rotate(0deg);
   }
   100% {
     transform: scale(1, 1);
+    transform: rotate(0.3deg);
   }
 }
 .titlecanada{
-  animation: titlecanada-jiggle 2s infinite ease-in-out;
+  animation: titlecanada-jiggle 3s infinite ease-in-out;
   transition: color 1000ms linear;
 }
 @keyframes titlecanada-jiggle {
   0% {
     transform: scale(1.005, 1.005);
+    transform: rotate(0deg);
   }
   25% {
     transform: scale(1, 1);
+    transform: rotate(0.5deg);
   }
   50% {
     transform: scale(1.005, 1.005);
+    transform: rotate(0deg);
   }
   75% {
     transform: scale(1, 1);
+    transform: rotate(0.5deg);
   }
   100% {
     transform: scale(1.005, 1.005);
+    transform: rotate(0deg);
   }
 }
+
+.header{
+  padding: 2%;
+  opacity: 1;
+  transition: opacity 250ms ease;
+}
+.js-header-animate {
+  opacity: 0;
+}
+
+.topsandbar {
+  background-image: linear-gradient(to bottom, #edc596, #fbd7a7);
+  text-align: center;
+}
+
+/*TITLE SECTION END*/
 
