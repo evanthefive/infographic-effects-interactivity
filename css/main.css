@@ -56,11 +56,11 @@ h1:hover {
 .midrow {
   text-align: center;
   margin-bottom: 4%;
-  margin-top: 3rem;
+  margin-top: 4%;
 }
 
 .midinfo {
-  margin-bottom: 1rem;
+  margin-bottom: 1%;
 }
 /* margins section end */
 /* way points section */
@@ -438,9 +438,9 @@ h1:hover {
 /* footer section */
 
 .footsandbar {
-  min-height: 6rem;
+  min-height: 6em;
   padding: 2%;
-  background-image: linear-gradient(to top, #edc596, #fbd7a7);
+  background-color: #edc596;
   text-align: center;
 }
 
