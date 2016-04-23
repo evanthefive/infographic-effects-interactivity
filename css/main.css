@@ -131,6 +131,7 @@ body {
 
 /* WAY POINTS SECTION END */
 /* TITLE SECTION */
+
 .titlefishing {
   animation: titlefishing-jiggle 2.5s infinite ease-in-out;
   transition: color 1000ms linear;
@@ -162,6 +163,7 @@ body {
     transform: rotate(0deg);
   }
 }
+
 .titlein {
   animation: titlein-jiggle 4s infinite ease-in-out;
   transition: color 1000ms linear;
@@ -193,6 +195,7 @@ body {
     transform: rotate(0.3deg);
   }
 }
+
 .titlecanada {
   animation: titlecanada-jiggle 3s infinite ease-in-out;
   transition: color 1000ms linear;
@@ -224,12 +227,14 @@ body {
     transform: rotate(0deg);
   }
 }
+
 .topsandbar {
   background-image: linear-gradient(to bottom, #edc596, #fbd7a7);
   text-align: center;
 }
 /* TITLE SECTION END */
 /* FIRST SECTION */
+
 .fishes {
   animation: fishes-jiggle 3s infinite ease-in-out;
   transition: color 1000ms linear;
@@ -261,6 +266,7 @@ body {
     fill: #fff;
   }
 }
+
 .sectionwiggle {
   animation: sectionwiggle-jiggle 3s infinite ease-in-out;
   transition: color 1000ms linear;
@@ -287,6 +293,7 @@ body {
     transform: rotate(0deg);
   }
 }
+
 .bobberin {
   animation: bobberin-jiggle 1s infinite ease-in-out;
 }
@@ -304,6 +311,7 @@ body {
     transform: scale(1.01, 1.01);
   }
 }
+
 .bobberout {
   animation: bobberout-jiggle 1s infinite ease-in-out;
 }
@@ -321,6 +329,7 @@ body {
     transform: scale(1, 1);
   }
 }
+
 .fishinleaf {
   animation: fishinleaf-jiggle 1s infinite ease-in-out;
   fill: #2d4171;
@@ -339,12 +348,15 @@ body {
     transform: scale(1, 1);
   }
 }
+
 .fishleaf {
   transition: color 1000ms linear;
 }
+
 .fishleaf:hover {
   fill: #d8eaf8;
 }
+
 .walleyewiggle {
   animation: walleyewiggle-jiggle 4s infinite ease-in-out;
   transition: color 1000ms linear;
@@ -378,6 +390,7 @@ body {
 }
 /* FIRST SECTION END */
 /* LAST SECTION */
+
 .planewiggle {
   animation: planewiggle-jiggle 2.5s infinite ease-in-out;
   transition: color 1000ms linear;
@@ -411,6 +424,7 @@ body {
 }
 /* LAST SECTION END */
 /* FOOTER SECTION */
+
 .footsandbar {
   min-height: 6rem;
   padding: 2%;
