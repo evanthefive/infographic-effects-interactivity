@@ -98,10 +98,6 @@ body {
 .js-topspots-animate {
   opacity: 0;
 }
-
-
-
-
 .bob {
   margin-top: 5%;
   opacity: 1;
@@ -110,7 +106,6 @@ body {
 .js-bob-animate {
   opacity: 0;
 }
-
 .leaf {
   margin-top: 8%;
   margin-bottom: 5%;
@@ -120,7 +115,6 @@ body {
 .js-leaf-animate {
   opacity: 0;
 }
-
 .walleye {
   opacity: 1;
   transition: opacity 250ms ease;
@@ -128,7 +122,6 @@ body {
 .js-walleye-animate {
   opacity: 0;
 }
-
 .graph {
   opacity: 1;
   transition: opacity 250ms ease;
@@ -145,18 +138,20 @@ body {
 }
 
 
+
+
+
 .twomil {
   margin-right: 5%;
   margin-bottom: 5%;
 }
-
 .mvf {
   margin-bottom: 5%;
 }
-
 .oneoften {
   margin-bottom: 5%;
 }
+
 
 
 
@@ -164,11 +159,9 @@ body {
   animation: fishes-jiggle 1s infinite ease-in-out;
   transition: color 1000ms linear;
 }
-
 .fishes:hover{
   fill: #2d4171;
 }
-
 @keyframes fishes-jiggle {
   0% {
     transform: scale(1.005, 1.005);
@@ -244,3 +237,72 @@ body {
 .fishleaf:hover{
   fill: #d8eaf8;
 }
+
+
+
+
+
+.titlefishing{
+  animation: titlefishing-jiggle 2s infinite ease-in-out;
+  transition: color 1000ms linear;
+}
+@keyframes titlefishing-jiggle {
+  0% {
+    transform: scale(1.005, 1.005);
+  }
+  25% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.005, 1.005);
+  }
+  75% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(1.005, 1.005);
+  }
+}
+.titlein{
+  animation: titlein-jiggle 2s infinite ease-in-out;
+  transition: color 1000ms linear;
+}
+@keyframes titlein-jiggle {
+  0% {
+    transform: scale(1, 1);
+  }
+  25% {
+    transform: scale(1.005, 1.005);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+  75% {
+    transform: scale(1.005, 1.005);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+.titlecanada{
+  animation: titlecanada-jiggle 2s infinite ease-in-out;
+  transition: color 1000ms linear;
+}
+@keyframes titlecanada-jiggle {
+  0% {
+    transform: scale(1.005, 1.005);
+  }
+  25% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.005, 1.005);
+  }
+  75% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(1.005, 1.005);
+  }
+}
+
