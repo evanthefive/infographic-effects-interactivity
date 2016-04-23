@@ -22,25 +22,31 @@ body {
   margin: 0;
 }
 /* MARGINS SECTION */
+
 .twomil {
   margin-right: 5%;
   margin-bottom: 5%;
 }
+
 .mvf {
   margin-bottom: 5%;
 }
+
 .oneoften {
   margin-bottom: 5%;
 }
+
 .toprow {
   text-align: center;
   margin-top: 3%;
 }
+
 .midrow {
   text-align: center;
   margin-bottom: 4%;
   margin-top: 3rem;
 }
+
 .midinfo {
   margin-bottom: 1rem;
 }
