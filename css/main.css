@@ -330,11 +330,11 @@ body {
   }
 }
 
-.fishinleaf {
-  animation: fishinleaf-jiggle 1s infinite ease-in-out;
+.leaffish {
+  animation: leaffish-jiggle 1s infinite ease-in-out;
   fill: #2d4171;
 }
-@keyframes fishinleaf-jiggle {
+@keyframes leaffish-jiggle {
 
   0% {
     transform: scale(1, 1);
