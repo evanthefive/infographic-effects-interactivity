@@ -22,11 +22,15 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 h1 {
   font-size: 120%;
   color: #a79072;
   padding-bottom: 3%;
-  transition: color 500ms linear;
+  transition: color 500ms;
 }
 
 h1:hover {
