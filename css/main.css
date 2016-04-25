@@ -245,7 +245,7 @@ h1:hover {
 }
 
 .topsandbar {
-  background-image: linear-gradient(to bottom, #edc596, #fbd7a7);
+  background-image: linear-gradient(to bottom, #cfac83, #fbd7a7);
   text-align: center;
 }
 /* title section end */
@@ -446,6 +446,7 @@ h1:hover {
   padding: 2%;
   background-color: #edc596;
   text-align: center;
+  background-image: linear-gradient(to bottom, #fbd7a7, #cfac83);
 }
 
 /* footer section end */
