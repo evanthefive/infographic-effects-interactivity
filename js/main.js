@@ -25,7 +25,7 @@ $topspots.waypoint(function (direction) {
 
 $('#bestspot').on('click', function () {
   var newName = prompt ('Name that pointy sharp thing fishes hate for a treat.');
-    if (newName == 'Hook' 'a hook' 'A Hook' 'I dunno' 'Beats me' 'fishes?' 'mmm treats') {
+    if (newName == 'Hook') {
       alert('Duuude, youre on point check out this spot! 45.559969, -75.265515 Watch for poison ivy!');
     } else {
       alert('You is a slow fish.');
