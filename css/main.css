@@ -81,7 +81,12 @@ h1:hover {
 
 .topspots {
   opacity: 1;
-  transition: opacity 500ms ease;
+  transition: opacity 700ms ease;
+}
+
+.topspots:hover {
+  background-color: #d8eaf8;
+  opacity: 0.9;
 }
 
 .js-topspots-animate {
