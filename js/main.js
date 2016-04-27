@@ -23,14 +23,15 @@ $topspots.waypoint(function (direction) {
   }
 }, {offset: '-30%'});
 
-$('#bestspot').on('click', function () {
+$('#bestspot').on('click', function() {
 
   var newName = prompt ('Name that pointy sharp thing fishes hate for a treat.');
-    if (newName == 'Hook') {
-      alert('Duuude, youre on point check out this spot! 45.559969, -75.265515 Watch for poison ivy!');
-    } else {
-      alert('You is a slow fish.');
-    }
+
+  if (newName == 'Hook') {
+    alert('Duuude, youre on point check out this spot! 45.559969, -75.265515 Watch for poison ivy!');
+  } else {
+    alert('You is a slow fish.');
+  }
 });
 
 $bob.waypoint(function (direction) {
