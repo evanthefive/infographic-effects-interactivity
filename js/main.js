@@ -23,7 +23,7 @@ $topspots.waypoint(function (direction) {
   }
 }, {offset: '-30%'});
 
-$('#bestspot').on('click', function( ) {
+$('#bestspot').on('click', function () {
 
   var newName = prompt('Name that pointy sharp thing fishes hate for a treat.');
 
